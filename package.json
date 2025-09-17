@@ -1,7 +1,7 @@
 
 {
   "name": "vite_react_shadcn_ts",
-  "homepage": "https://sjdpluse.github.io/YOUR_NEW_REPO_NAME",
+  "homepage": "https://sjdpluse.github.io/verse",
 
   "private": true,
   "version": "0.0.0",
@@ -12,7 +12,7 @@
   "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
   "preview": "vite preview",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+  "deploy": "gh-pages -d dist --spa"
 },
 
   "dependencies": {
